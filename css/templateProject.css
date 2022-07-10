@@ -1,0 +1,569 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    font-weight: bold;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 100px;
+    position: sticky;
+    top: 0;
+}
+
+#logo {
+    margin-left: 60px;
+    font-size: 60px;
+    width: 70px;
+    height: 70px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo h1 {
+    margin-left: 10px;
+    font-size: 18px;
+    display: block;
+}
+
+#logo:hover {
+    color: orange;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+nav ul li .nav1:hover {
+    background-color: white;
+    color: black;
+    transition: .5s;
+}
+
+.dropdown1 {
+    display: none;
+    color: white;
+}
+
+nav ul li:hover .dropdown1 {
+    border-radius: 10px;
+    background: transparent;
+    width: auto;
+    display: block;
+    background-color: black;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: -70px;
+}
+
+#a1 {
+    border: 2px solid orange;
+    color: orange;
+}
+
+#a1:hover {
+    transform: scale();
+}
+
+nav ul li:hover .dropdown1 ul {
+    display: block;
+}
+
+nav ul li:hover .dropdown1 ul li {
+    padding: 0px px;
+    margin-top: -30px;
+    background: transparent;
+}
+
+nav ul li:hover .dropdown1 ul li a {
+    padding: 0px -20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -30px;
+}
+
+nav ul li:hover .dropdown1 ul li a:hover {
+    color: #ec8700;
+}
+
+#body {
+    margin-top: 40px;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url("https://prezibase.com/free/preview/librabry-3d-infographic-ideas-education-school-learning-circle-presentation-template-for-prezi.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#body #div1 {
+    width: 1100px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#body #div1 #box1 {
+    margin-top: -200px;
+    margin-left: -150px;
+    width: 300px;
+    height: 380px;
+    border: 15px solid orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#body #div1 div {
+    width: 1500px;
+    height: 300px;
+}
+
+#body #div1 div .h {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 120px;
+    font-weight: bold;
+    color: white;
+}
+
+#body #div1 #box2 {
+    margin-top: 500px;
+    margin-left: 100px;
+    width: 1000px;
+    height: 400px;
+    margin-top: 50px;
+}
+
+#body #div1 #box2 p {
+    margin-top: 100px;
+    color: white;
+    font-size: 21px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#body #div1 #box2 div {
+    margin-top: 50px;
+    width: 178.3px;
+    height: 49px;
+    border: 2.4px solid orange;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#body #div1 #box2 div a {
+    padding: 12px 31.0px;
+    text-decoration: none;
+    font-size: 21px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#body #div1 #box2 div a:hover {
+    background-color: orange;
+    background-size: cover;
+    transition: .5s;
+}
+
+#section1 {
+    width: auto;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+#section1 #box1 {
+    width: 280px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-right: 100px;
+}
+
+#box1 h2 {
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500px;
+}
+
+#box1 #p1 {
+    margin-top: 15px;
+    font-size: 18px;
+    display: flex;
+    text-align: justify;
+}
+
+#box1 #p2 {
+    margin-top: 30px;
+    border-bottom: 3px solid white;
+}
+
+#box1 #p3 {
+    margin-top: 70px;
+    font-size: 18px;
+    display: flex;
+    text-align: justify;
+    border-left: 10px solid orange;
+}
+
+#section1 #box2 {
+    width: 400px;
+    height: 500px;
+    background-image: url("https://i.pinimg.com/736x/31/db/70/31db70212a02b2835ab1f397b2b2865f.jpg");
+    background-position: center;
+}
+
+#section1 #box3 {
+    margin-left: 20px;
+    width: 600px;
+    height: 500px;
+    background-image: url("https://nickiandkaren.com/wp-content/uploads/2019/04/agoura-hills-library-1024x683.jpg");
+    background-position: center;
+}
+
+#section2 {
+    width: auto;
+    height: 800px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+#section2 #box3 {
+    width: 350px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin-right: 100px;
+    margin-top: -150px;
+}
+
+#box3 h2 {
+    color: black;
+    width: 350px;
+    height: 2px;
+    margin-top: 50px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500px;
+    text-align: right;
+}
+
+#box3 #p1 {
+    margin-top: 100px;
+    font-size: 18px;
+    display: flex;
+    text-align: justify;
+}
+
+#box3 a {
+    display: flex;
+    justify-content: right;
+    text-decoration: none;
+    color: orange;
+}
+
+#box3 #p2 {
+    margin-top: 30px;
+    border-bottom: 3px solid black;
+}
+
+#box3 #divMain {
+    margin-top: 20px;
+    width: 370px;
+    height: 250px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+#box3 #divMain #div1 {
+    margin-top: 20px;
+    width: 12px;
+    height: 250px;
+    background-color: orange;
+}
+
+#box3 #divMain #div2 {
+    margin-top: 10px;
+    text-align: justify;
+    width: 320px;
+    height: 200px;
+}
+
+#box3 #p3 {
+    margin-left: 10px;
+    font-size: 18px;
+    display: flex;
+    text-align: justify;
+}
+
+#section2 #box1 {
+    margin-left: 50px;
+    margin-top: -40px;
+    text-align: center;
+    width: 400px;
+    height: 650px;
+}
+
+#section2 #box2 {
+    margin-left: 50px;
+    text-align: center;
+    width: 400px;
+    height: 650px;
+}
+
+#section2 #box2 h2 {
+    margin-top: 20px;
+    font-size: 34px;
+}
+
+#section2 ul {
+    list-style-type: disc;
+}
+
+#border2 {
+    width: auto;
+    height: 460px;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://imgscf.slidemembers.com/docs/1/1/209/library_-_free_presentation_template_208491.jpg");
+    background-repeat: no-repeat;
+}
+
+#border2 #box1 {
+    width: 800px;
+    height: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#border2 #box1 div {
+    color: black;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+}
+
+#border2 #box1 h1 {
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+#border2 #box2 {
+    margin-left: 100px;
+    width: 1400px;
+    height: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#border2 #box2 div {
+    color: black;
+    margin-right: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#border2 #box2 p {
+    font-size: 20px;
+    text-align: left;
+}
+
+#section3 {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://wallpapers.com/images/high/books-on-shelves-bk9wakmcy00b9ue3.jpg");
+}
+
+#section3 #h {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+}
+
+#section3 p {
+    margin-top: 20px;
+    color: #86b0b6;
+    font-size: 20px;
+}
+
+.comment-box {
+    margin-top: 120px;
+    width: 700px;
+}
+
+.comment-box h2 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.comment-box input {
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 3px solid #86b0b6;
+}
+
+.comment-box input:focus {
+    border: 1px solid white;
+    outline: 0;
+}
+
+.comment-box textarea {
+    width: 100%;
+    height: 150px;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 3px solid #86b0b6;
+}
+
+.comment-box textarea:focus {
+    border: 1px solid #000;
+    outline: 0;
+}
+
+.comment-box button {
+    border: 0;
+    padding: 10px 30px;
+    background: #86b0b6;
+    font-size: 25px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.comment-box button:hover {
+    background-color: #718a8e;
+}
+
+#header3 {
+    width: auto;
+    height: 400px;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#header3 section {
+    margin-right: 250px;
+    width: 800px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header3 section #div1 {
+    width: 260px;
+    height: 150px;
+    border: 15px solid orange;
+    font-size: 23px;
+}
+
+#header3 section #div1 h2 {
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+#header3 section #div2 {
+    width: 280px;
+    height: 120px;
+    border-bottom: 3px solid black;
+}
+
+#header3 #div2 p {
+    margin-top: 55px;
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    justify-content: space-evenly;
+}
+
+#header3 #div3 {
+    margin-left: 50px;
+    width: 1000px;
+    height: 200px;
+    display: flex;
+}
+
+#header3 #div3 p {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    font-weight: bold;
+    justify-content: left;
+    align-items: center;
+    font-size: 18px;
+    margin-right: 70px;
+}
+
+#bottom {
+    width: auto;
+    height: 110px;
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bottom a {
+    color: #ec8700;
+    text-decoration: none;
+}
