@@ -241,6 +241,7 @@ nav ul li:hover .dropdown1 ul li a:hover {
     height: 500px;
     background-image: url("https://i.pinimg.com/736x/31/db/70/31db70212a02b2835ab1f397b2b2865f.jpg");
     background-position: center;
+    background-attachment: fixed;
 }
 
 #section1 #box3 {
@@ -249,6 +250,7 @@ nav ul li:hover .dropdown1 ul li a:hover {
     height: 500px;
     background-image: url("https://nickiandkaren.com/wp-content/uploads/2019/04/agoura-hills-library-1024x683.jpg");
     background-position: center;
+    background-attachment: fixed;
 }
 
 #section2 {
@@ -380,7 +382,7 @@ nav ul li:hover .dropdown1 ul li a:hover {
 }
 
 #border2 #box1 div {
-    color: black;
+    color: white;
     margin-right: 100px;
     display: flex;
     flex-direction: row;
@@ -405,7 +407,7 @@ nav ul li:hover .dropdown1 ul li a:hover {
 }
 
 #border2 #box2 div {
-    color: black;
+    color: white;
     margin-right: 90px;
     display: flex;
     flex-direction: row;
@@ -418,6 +420,9 @@ nav ul li:hover .dropdown1 ul li a:hover {
 }
 
 #section3 {
+    content: '';
+    background-position: center center;
+    background-attachment: fixed;
     width: 100%;
     height: 800px;
     display: flex;
@@ -425,6 +430,9 @@ nav ul li:hover .dropdown1 ul li a:hover {
     justify-content: center;
     align-items: center;
     background-image: url("https://wallpapers.com/images/high/books-on-shelves-bk9wakmcy00b9ue3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: opacity(10px);
 }
 
 #section3 #h {
@@ -434,12 +442,13 @@ nav ul li:hover .dropdown1 ul li a:hover {
 }
 
 #section3 p {
-    margin-top: 20px;
-    color: #86b0b6;
+    margin-top: 30px;
+    color: white;
     font-size: 20px;
 }
 
 .comment-box {
+    background: transparent;
     margin-top: 120px;
     width: 700px;
 }
@@ -451,6 +460,7 @@ nav ul li:hover .dropdown1 ul li a:hover {
 }
 
 .comment-box input {
+    background: transparent;
     width: 100%;
     height: 50px;
     padding: 0 20px;
@@ -465,6 +475,7 @@ nav ul li:hover .dropdown1 ul li a:hover {
 }
 
 .comment-box textarea {
+    background: transparent;
     width: 100%;
     height: 150px;
     padding: 15px 20px;
