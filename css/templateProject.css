@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 
-#header {
-    width: 100%;
+header {
+    width: auto;
     height: 100px;
     background-color: black;
     font-weight: bold;
